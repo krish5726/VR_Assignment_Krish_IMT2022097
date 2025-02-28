@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import glob
 
-image_paths = ['Assignment1/pano2.jpeg', 'Assignment1/pano3.jpeg']
+image_paths = ['pano2.jpeg', 'pano3.jpeg']
 images = [cv2.imread(path) for path in image_paths]
 if any(img is None for img in images):
     print("Error: One or more images could not be loaded. Check file paths.")

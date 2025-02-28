@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('Assignment1/img3.png')
+image = cv2.imread('img3.png')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 plt.imshow(gray, cmap='gray');
 blur = cv2.GaussianBlur(gray, (5,5), 0)

@@ -12,13 +12,15 @@ Ensure you have the following libraries installed before running the script:
 You can install them using:
 ```sh
 pip install opencv-python numpy matplotlib
-
+```
 
 ## How to Run
 
 Place your image in the existing folder and name it img3.png, or update the script to use your image.
 Run the script using:
+```sh
 python coinDetection.py
+```
 
 ## Methods Used
 Grayscale Conversion: Converts the input image to grayscale for easier processing.
@@ -31,3 +33,5 @@ Contour Detection: Finds and counts individual coins based on their contours.
 The script effectively detects and counts coins in the image.
 If coins are touching or overlapping, the count may be inaccurate.
 Adjusting Gaussian blur and Canny edge detection thresholds can improve accuracy.
+
+

@@ -13,7 +13,7 @@ You can install them using:
 pip install opencv-python numpy
 ```
 ## How to Run
-Place your images in the Assignment1 directory with filenames pano2.jpeg and pano3.jpeg, or modify the script to use your own images.
+Place your images in the existing folder with filenames pano2.jpeg and pano3.jpeg, or modify the script to use your own images.
 Run the script using:
 ```sh
 python panorama.py
